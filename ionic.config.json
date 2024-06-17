@@ -1,0 +1,7 @@
+{
+  "name": "jchain-explorer",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
