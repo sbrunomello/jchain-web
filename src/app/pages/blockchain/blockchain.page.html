@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Blockchain
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let block of blocks">
+      <ion-label>
+        <h2>Bloco #{{ block.index }}</h2>
+        <p>Hash: {{ block.hash }}</p>
+        <p>Timestamp: {{ block.timestamp }}</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
